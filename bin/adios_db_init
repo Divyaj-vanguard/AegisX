@@ -1,0 +1,6 @@
+#!/home/vanguard/Documents/Projects/aegisx/.venv/bin/python3
+import sys
+from adios_db.scripts.db_initialize import init_db_cmd
+if __name__ == '__main__':
+    sys.argv[0] = sys.argv[0].removesuffix('.exe')
+    sys.exit(init_db_cmd())

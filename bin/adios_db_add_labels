@@ -1,0 +1,6 @@
+#!/home/vanguard/Documents/Projects/aegisx/.venv/bin/python3
+import sys
+from adios_db.scripts.add_labels import add_the_labels
+if __name__ == '__main__':
+    sys.argv[0] = sys.argv[0].removesuffix('.exe')
+    sys.exit(add_the_labels())
