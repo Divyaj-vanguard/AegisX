@@ -1,0 +1,6 @@
+#!/home/vanguard/Documents/Projects/aegisx/.venv/bin/python3
+import sys
+from adios_db.scripts.read_noaa_csv import main
+if __name__ == '__main__':
+    sys.argv[0] = sys.argv[0].removesuffix('.exe')
+    sys.exit(main())
