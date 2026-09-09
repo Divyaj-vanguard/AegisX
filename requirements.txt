@@ -1,0 +1,13 @@
+# AegisX - Maritime Forensic Oil Spill Attribution Engine
+# Core runtime dependencies (pinned to validated build)
+fastapi==0.141.1
+uvicorn==0.52.4
+numpy==2.5.3
+pandas==3.0.5
+scipy==1.18.1
+shapely==2.1.2
+geopandas==1.1.4
+netCDF4==1.7.4
+opendrift==1.14.12
+pyproj==3.8.0
+folium==0.20.0
